@@ -1,9 +1,9 @@
 let a = "Jean"
 let b = "Paul"
-let result = (a == b)
+let result = checkName(a , b)
 
 function checkName (firstUserName , secondUserName){
-    return (a == b)
+    return (firstUserName === secondUserName)
 }
 
 console.log (result)
